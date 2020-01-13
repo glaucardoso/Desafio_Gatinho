@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from gatinho.views import home, detail, delete, update
+from gatinho.views import *
 import dono.urls
 
 urlpatterns = [
